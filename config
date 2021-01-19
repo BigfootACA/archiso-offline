@@ -1,0 +1,13 @@
+arch=x86_64
+server=http://192.168.0.200/arch
+repos=(core extra)
+url_testing=$server/testing/os/$arch
+url_core=$server/core/os/$arch
+url_extra=$server/extra/os/$arch
+url_community_testing=$server/community-testing/os/$arch
+url_community=$server/community/os/$arch
+url_multilib_testing=$server/multilib-testing/os/$arch
+url_multilib=$server/multilib/os/$arch
+url_blackarch=$server/blackarch/os/$arch
+url_arch4edu=$server/arch4edu/os/$arch
+url_archlinuxcn=$server/archlinuxcn/os/$arch

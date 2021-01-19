@@ -1,0 +1,5 @@
+/out
+*.db
+*.pkg.tar.xz
+*.pkg.tar.zst
+*.sig
