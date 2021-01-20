@@ -1,0 +1,14 @@
+arch=x86_64
+server=https://mirrors.ustc.edu.cn
+arch_server=$server/archlinux
+repos=(core extra)
+url_testing=$arch_server/testing/os/$arch
+url_core=$arch_server/core/os/$arch
+url_extra=$arch_server/extra/os/$arch
+url_community_testing=$arch_server/community-testing/os/$arch
+url_community=$arch_server/community/os/$arch
+url_multilib_testing=$arch_server/multilib-testing/os/$arch
+url_multilib=$arch_server/multilib/os/$arch
+url_blackarch=$server/blackarch/blackarch/os/$arch
+## ustc has no arch4edu
+url_archlinuxcn=$server/archlinuxcn/$arch
